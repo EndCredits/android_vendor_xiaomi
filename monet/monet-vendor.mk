@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/monet/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
     vendor/xiaomi/monet/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/xiaomi/monet/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@2.0.so \
     vendor/xiaomi/monet/proprietary/system_ext/lib/vendor.qti.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.camera.device@3.5.so \
     vendor/xiaomi/monet/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
     vendor/xiaomi/monet/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
@@ -185,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/etc/sensors/proto/sns_motion_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_motion_detect.proto \
     vendor/xiaomi/monet/proprietary/vendor/etc/sensors/proto/sns_multishake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_multishake.proto \
     vendor/xiaomi/monet/proprietary/vendor/etc/sensors/proto/sns_oem1.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_oem1.proto \
+    vendor/xiaomi/monet/proprietary/vendor/etc/sensors/proto/sns_oem2.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_oem2.proto \
     vendor/xiaomi/monet/proprietary/vendor/etc/sensors/proto/sns_oem3.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_oem3.proto \
     vendor/xiaomi/monet/proprietary/vendor/etc/sensors/proto/sns_offbody_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_offbody_detect.proto \
     vendor/xiaomi/monet/proprietary/vendor/etc/sensors/proto/sns_pedometer.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pedometer.proto \
@@ -230,6 +232,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermal-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-map.conf \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermal-nolimits.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-nolimits.conf \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermal-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-normal.conf \
+    vendor/xiaomi/monet/proprietary/vendor/etc/thermal-per-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-normal.conf \
+    vendor/xiaomi/monet/proprietary/vendor/etc/thermal-per-camera.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-per-camera.conf \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermal-phone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-phone.conf \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
@@ -440,6 +444,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/xiaomi/monet/proprietary/vendor/lib/libOmxVpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVpp.so \
     vendor/xiaomi/monet/proprietary/vendor/lib/libOmxWmaDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxWmaDec.so \
+    vendor/xiaomi/monet/proprietary/vendor/lib/libresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libresampler.so \
     vendor/xiaomi/monet/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/xiaomi/monet/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/xiaomi/monet/proprietary/vendor/lib/libaudioroute_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioroute_ext.so \
@@ -759,6 +764,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/lib64/sensors.touch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.touch.so \
     vendor/xiaomi/monet/proprietary/vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/xiaomi/monet/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
+    vendor/xiaomi/monet/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@2.0.so \
     vendor/xiaomi/monet/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@3.5.so \
     vendor/xiaomi/monet/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/xiaomi/monet/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
