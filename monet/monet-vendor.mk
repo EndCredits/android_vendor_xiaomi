@@ -237,68 +237,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermal-phone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-phone.conf \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/monet/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AcousticGuitar_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bottle_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bubble_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bullfrog_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Burst_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Candy_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Carousel_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Celesta_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Charge_Wire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wire_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Charge_Wireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wireless_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Childhood_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Chirp_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Clank_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Conf_MultipleTest.ini \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Country_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Cowboy_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Crystal_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FOD_Motion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion1_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FOD_Motion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion2_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FOD_Motion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion3_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FOD_Motion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion4_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FaceID_Wrong1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FaceID_Wrong1_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FaceID_Wrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FaceID_Wrong2_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FadeIn_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FadeOut_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fairyland_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fantasy_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Field_Trip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Field_Trip_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Flute_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fresh_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Frog_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Gesture_UpHold_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpHold_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Gesture_UpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpSlide_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Glee_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Guitar_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Harp_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Ice_Latte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Ice_Latte_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/IncomingMessage_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Kung_Fu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Kung_Fu_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Lollipop_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MessageSent_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/MiClassicRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiClassicRemix_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiHouse_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiJazz_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiMix2_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiRemix_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Mi_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Moment_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Mountain_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Mountain_Spring_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/NFC_card_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/NFC_card_slow_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_slow_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NotificationXylophone_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Orange_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Potion_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Radar_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Space_Age_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Space_Age_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Spring_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Swoosh_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ToyRobot_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Unlock_Failed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Unlock_Failed_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Vigor_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/a620_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b00 \
     vendor/xiaomi/monet/proprietary/vendor/firmware/a620_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b01 \
     vendor/xiaomi/monet/proprietary/vendor/firmware/a620_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b02 \
@@ -314,8 +254,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
     vendor/xiaomi/monet/proprietary/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_haptic.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bandage_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crawl_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-revb2.wmfw \
     vendor/xiaomi/monet/proprietary/vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-z-revb2.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-diag-z-revb2.wmfw \
@@ -330,19 +268,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw \
     vendor/xiaomi/monet/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/door_open_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/door_open_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_akm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_akm_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_awm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_awm_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_dp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_dp28_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_m16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_m16a4_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_mini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_mini14_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_p18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_p18c_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_qbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_qbz_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_s1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_s1897_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_ump9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_ump9_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/firearms_vss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_vss_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/grenade_explosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_explosion_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/xiaomi/monet/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/xiaomi/monet/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -350,41 +275,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/monet/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/xiaomi/monet/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/monet/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/launcher_edit_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_edit_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/launcher_icon_selection_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_icon_selection_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/lockscreen_camera_entry_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lockscreen_camera_entry_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/magazine_quick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/magazine_quick_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/mono.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/mono.cnt \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/new_iconfolder_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/new_iconfolder_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/notification_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_cleanall_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/notification_remove_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_remove_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/notification_setting_close_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_setting_close_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/offline_countdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/offline_countdown_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pan_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/punch_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scene_bomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scene_bomb_injury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_injury_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scene_closeparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_closeparachute_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scene_getshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_getshot_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scene_jump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_jump_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scene_openparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_openparachute_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scene_step_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_step_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scope_off_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_off_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/scope_on_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_on_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/screenshot_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/screenshot_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/task_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/task_cleanall_rtp.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/uninstall_animation_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_animation_rtp.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/uninstall_dialog_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_dialog_rtp.bin \
     vendor/xiaomi/monet/proprietary/vendor/firmware/vangogh_tele_lc898128_ois.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/vangogh_tele_lc898128_ois.coeff \
     vendor/xiaomi/monet/proprietary/vendor/firmware/vangogh_tele_lc898128_ois.mem:$(TARGET_COPY_OUT_VENDOR)/firmware/vangogh_tele_lc898128_ois.mem \
     vendor/xiaomi/monet/proprietary/vendor/firmware/vangogh_tele_lc898128_ois.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/vangogh_tele_lc898128_ois.prog \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/vehicle_buggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_buggy_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/vehicle_collision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_collision_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/vehicle_dacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_dacia_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/vehicle_moto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_moto_RTP.bin \
-    vendor/xiaomi/monet/proprietary/vendor/firmware/vehicle_plane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_plane_RTP.bin \
     vendor/xiaomi/monet/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
     vendor/xiaomi/monet/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
     vendor/xiaomi/monet/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
