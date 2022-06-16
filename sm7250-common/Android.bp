@@ -158,32 +158,6 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-dex_import {
-	name: "tcmclient",
-	owner: "xiaomi",
-	jars: ["proprietary/framework/tcmclient.jar"],
-}
-
-dex_import {
-	name: "com.qti.dpmframework",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "dpmapi",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qcrilhook",
-	owner: "xiaomi",
-	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
-	system_ext_specific: true,
-}
 
 dex_import {
 	name: "vendor.qti.hardware.alarm-V1.0-java",
