@@ -343,6 +343,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/launcher_icon_selection_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_icon_selection_rtp.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/lockscreen_camera_entry_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lockscreen_camera_entry_rtp.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/magazine_quick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/magazine_quick_RTP.bin \
+    vendor/xiaomi/vangogh/proprietary/vendor/firmware/mono.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/mono.cnt \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/new_iconfolder_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/new_iconfolder_rtp.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/notification_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_cleanall_rtp.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/notification_remove_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_remove_rtp.bin \
@@ -362,6 +363,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/scope_on_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_on_RTP.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/screenshot_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/screenshot_rtp.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/task_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/task_cleanall_rtp.bin \
+    vendor/xiaomi/vangogh/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/uninstall_animation_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_animation_rtp.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/uninstall_dialog_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_dialog_rtp.bin \
     vendor/xiaomi/vangogh/proprietary/vendor/firmware/vangogh_tele_lc898128_ois.coeff:$(TARGET_COPY_OUT_VENDOR)/firmware/vangogh_tele_lc898128_ois.coeff \
@@ -465,6 +467,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vangogh/proprietary/vendor/lib/rfsa/adsp/libfastcvdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libfastcvdsp_skel.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib/rfsa/adsp/libhexagon_nn_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libhexagon_nn_skel.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so \
+    vendor/xiaomi/vangogh/proprietary/vendor/lib/rfsa/adsp/libproxy_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libproxy_skel.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so \
@@ -713,6 +716,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/vangogh/proprietary/vendor/lib64/libssccalapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssccalapi.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib64/libst_soft_isp_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libst_soft_isp_shared.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
+    vendor/xiaomi/vangogh/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-cpu.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib64/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynx.so \
     vendor/xiaomi/vangogh/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
